@@ -5,41 +5,75 @@ body{
 #container{
 	text-align: center;
 }
-#div1{
-	background-color: #DF013A;
+.header{
+	background-color: #A1243A;
 	width: 100%;
 	height: 150px;
 }
 h1{
-	font-family: 'El Rio Lobo'
+	font-family: 'El Rio Lobo';
+	padding-top: 20px;
+	color: #F2AF40;
 }
 h3{
-	font-family: 'El Rio Lobo';
+	color: white;
 }
-#div2{
-	background-color: #2E9AFE;
+.body{
+	background-color: #158ABE;
+	width: 100%;
+	height: 400px;
+}
+.body img{
+	margin: 20px;
+	width: 600px;
+	height: 360px;
+}
+.imagen{
 	width: 100%;
 	height: 600px;
 }
-#div2.img{
-	margin: 10px 50px 10px 50px;
-	padding: 1px;
-}
-#div3{
-	width: 100%;
-	height: 600px;
-}
-#div3.img2{
+.imagen img{
 	position: relative;
-}
-#div3.p2{
-	position: absolute;
-	font-family: 'El Rio Lobo';
-	right: 0;
-	font-size: 12px;
-}
-#div4{
-	background-color: white;
+	display: block;
 	width: 100%;
-	height: 450px;
+	height: 600px;
+}
+
+.imagen p {
+    position: absolute;
+    right: 0;
+    font-size: 22px;
+    text-align: right;
+    display: block;
+    bottom: -67px;
+    color: white;
+}
+.imagen h1 {
+    position: absolute;
+    bottom: 66px;
+    font-family: 'El Rio Lobo';
+    color: #F2AF40;
+    right: 0;
+}
+.footer {
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    bottom: -700px;
+}
+.footer h1 {
+    font-family: 'El Rio Lobo';
+    color: black;
+    font-size: 80px;
+    font-weight: 100;
+}
+.footer li {
+    font-family: 'El Rio Lobo';
+    color: black;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 30%;
+    padding: 5px;
 }
