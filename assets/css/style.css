@@ -68,6 +68,9 @@ h3{
     font-size: 80px;
     font-weight: 100;
 }
+.footer ul {
+	list-style: none;
+	}
 .footer li {
     font-family: 'El Rio Lobo';
     color: black;
@@ -77,3 +80,20 @@ h3{
     margin-left: 30%;
     padding: 5px;
 }
+
+li.nota:before{
+	font-family: 'El Rio Lobo';
+	content: '-';
+	display: inline-block;
+}
+li.nota1:before{
+	font-family: 'El Rio Lobo';
+	content: '-';
+	display: inline-block;
+}
+li.nota2:before{
+	font-family: 'El Rio Lobo';
+	content: '-';
+	display: inline-block;
+}
+	
