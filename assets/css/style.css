@@ -93,7 +93,7 @@ li.nota1:before{
 }
 li.nota2:before{
 	font-family: 'El Rio Lobo';
-	content: '-';
+	content: '©';
 	display: inline-block;
 }
 	
